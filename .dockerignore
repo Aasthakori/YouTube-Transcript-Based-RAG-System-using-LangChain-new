@@ -1,0 +1,30 @@
+# Python artifacts
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git / OS
+.git/
+.gitignore
+.DS_Store
+
+# Local data — container uses volumes, not the host copy
+faiss_index/
+data/
+
+# Evaluation output — volume-mounted
+evaluation/results/
+
+# Secrets — passed at runtime via env_file, never baked into image
+.env
+
+# Notebooks and scratch files
+reference_notebook.ipynb
+*.ipynb
+_ingest_and_show_chunks.py
+
+# Tests and dev tooling
+tests/
+.claude/

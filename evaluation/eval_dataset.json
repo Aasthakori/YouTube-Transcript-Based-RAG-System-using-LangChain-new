@@ -1,0 +1,170 @@
+[
+  {
+    "question": "What label did the media and industry give Vidya Balan early in her career after a series of projects fell apart, and what was the actual behind-the-scenes reason for the first project being shelved?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "Vidya Balan mentions a specific health condition related to her hormonal issues. What condition does she name, and what does she say is the deeper emotional root cause of it according to her healer?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "For how many years has Vidya Balan been working with a healer, and what does she say this work ultimately revealed about how everything in her life connects?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "How does Vidya Balan describe what 'fame' felt like in 2010 versus in 2023, and what accounts for the difference in her own words?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "Who made the first move in Vidya Balan's relationship with Siddharth Roy Kapur, and what was the very first thing she said to him when she saw him in a room?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "How many years have Vidya Balan and Siddharth Roy Kapur been together as stated in the interview, and how does she characterize what she values most about him?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "What does Vidya Balan say happens to women beyond the age of 40 regarding how much they care about other people's opinions, and what does she feel this gives them?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "Vidya Balan says she grew up feeling a 'rejection of femininity.' What specific family and social dynamics does she point to as the origin of this feeling?",
+    "ground_truth": "",
+    "expected_video_id": "Cpsxv6pfyj4",
+    "key_facts": []
+  },
+  {
+    "question": "What is the chemical process by which the human body converts sunlight into vitamin D, and which organs are involved at each stage?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  },
+  {
+    "question": "How does the transformer neural network architecture differ from recurrent neural networks (RNNs) in handling long-range dependencies in sequential data?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  },
+  {
+    "question": "How did Kriti Sanon land her Bollywood debut in Heropanti — how long had the director been searching for the lead actress, and how quickly was Kriti signed after her audition?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What is Kriti Sanon's view on whether talent or marketing is more important for an actor's long-term success, and what limit does she place on how far marketing alone can take someone?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What are the three main red flags Kriti Sanon looks for in a potential partner, and which does she rank as the biggest?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What specific frustration with her skincare routine during lockdown gave Kriti Sanon the idea for Hyphen, and what was the core principle she set for herself from day one about the products she would make?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "How does Kriti Sanon reconcile wanting chivalry from a man with her belief in feminism and financial independence?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "How does Kriti Sanon rate intellectual intimacy versus looks on a scale of 1–10 in an ideal partner, and what does she say about dating someone who earns less than her?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What career low point did Kriti Sanon go through — how long was she without work, what decision did she make as a result, and what does she say about coming from a non-film background?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What does Kriti Sanon say is the most underrated step in a basic skincare routine that most people overlook, and why does she argue skipping it actually harms your skin?",
+    "ground_truth": "",
+    "expected_video_id": "WYY5FwiKe-U",
+    "key_facts": []
+  },
+  {
+    "question": "What were the key economic factors that led to the 2008 global financial crisis, and which financial instruments were most directly implicated?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  },
+  {
+    "question": "How does photosynthesis in C4 plants differ from C3 plants in terms of carbon fixation efficiency and adaptation to hot climates?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  },
+  {
+    "question": "What specific moment made Shahid Kapoor realize he wanted a life partner — what event was he returning from, and what was he feeling in that car ride home?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What type of marriage did Shahid have with Mira Rajput, how many times had they met before getting married, and what does he say she has brought to his life?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What does Shahid Kapoor say marriage taught him, and how does he describe the shift from being single to thinking for others?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "Which film finally made Shahid quit smoking, and what are the other two lifestyle choices he credits for how he looks and feels?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What are the three things Shahid says made him the person he is today?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What major family disruption happened when Shahid was three years old, and how does he describe his childhood overall?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What was the hardest question young Shahid wrestled with as a child, and what concept did searching for that answer lead him toward?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What does Shahid say is the distinction between what helps physical health versus mental health, and what practice did he say was therapeutic beyond physical exercise?",
+    "ground_truth": "",
+    "expected_video_id": "AQPpwDLKpLI",
+    "key_facts": []
+  },
+  {
+    "question": "What is the boiling point of water at 8,000 feet above sea level, and how does altitude affect cooking times for different foods?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  },
+  {
+    "question": "What are the main differences between supervised and unsupervised machine learning algorithms, and when would you choose one over the other?",
+    "ground_truth": "NOT_IN_CONTEXT"
+  }
+]

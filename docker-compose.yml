@@ -1,0 +1,47 @@
+services:
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      # Container-to-container: use service name "ollama", not localhost
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=mistral
+      - LLM_TEMPERATURE=0
+      - EMBEDDING_MODEL=all-mpnet-base-v2
+      - FAISS_INDEX_PATH=/app/faiss_index
+      - PARENT_CHUNK_SIZE=1000
+      - CHILD_CHUNK_SIZE=200
+      - CHILD_CHUNK_OVERLAP=20
+      - BM25_K=16
+      - FAISS_K=16
+      - FINAL_K=8
+    env_file:
+      # Supplies GOOGLE_API_KEY and any local overrides — never baked into the image.
+      # Explicit environment keys above take precedence over env_file values.
+      - .env
+    volumes:
+      - ./data/faiss_index:/app/faiss_index          # FAISS index + parent_store
+      - ./data/hf_cache:/root/.cache/huggingface     # HuggingFace model downloads
+      - ./evaluation/results:/app/evaluation/results  # eval output
+
+volumes:
+  ollama_data:

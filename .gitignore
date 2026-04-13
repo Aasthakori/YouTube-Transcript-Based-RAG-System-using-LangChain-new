@@ -1,0 +1,39 @@
+# Secrets
+.env
+
+# Vector store index
+faiss_index/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Reference notebook (starting point only — not part of the project)
+reference_notebook.ipynb
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Evaluation results (generated artefacts)
+evaluation/results/*.json
+data/
+faiss_index/
+.env

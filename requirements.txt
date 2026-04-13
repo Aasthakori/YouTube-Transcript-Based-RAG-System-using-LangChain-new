@@ -1,0 +1,43 @@
+# Core LangChain
+langchain>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+langchain-huggingface>=0.1.0
+langchain-google-genai>=2.0.0
+
+# LLM / embeddings (local, no API key)
+ollama>=0.3.0
+sentence-transformers>=3.0.0
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# Classic LangChain retrievers (EnsembleRetriever, CrossEncoderReranker)
+langchain-classic>=1.0.3
+
+# Transcript fetching
+youtube-transcript-api>=0.6.2
+yt-dlp>=2024.1.0
+
+# Config
+python-dotenv>=1.0.0
+
+# API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# UI
+streamlit>=1.37.0
+
+# Evaluation
+ragas>=0.1.20
+datasets>=2.20.0
+
+# Utilities
+httpx>=0.27.0
