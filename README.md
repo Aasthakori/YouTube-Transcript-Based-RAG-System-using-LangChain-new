@@ -26,4 +26,3 @@ Independent judge: Qwen 3 8B (separate architecture from Mistral 7B generator)
 | Refusal Accuracy | **5/6 (83%)** |
 
 Evaluated across 30 questions spanning 3 video transcripts.
-Open `http://localhost:8501` → paste a YouTube URL → ask questions.
