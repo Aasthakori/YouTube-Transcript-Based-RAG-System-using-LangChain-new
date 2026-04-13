@@ -6,7 +6,7 @@ Run as:
 Flow:
     1. Load evaluation/eval_dataset.json (30 questions, 10 per video).
     2. For each video: delete index → re-ingest → run full pipeline for all 10 Qs.
-    3. Save all 30 answers to evaluation/results/gemini_answers.json.
+    3. Save all 30 answers to evaluation/results/rag_answers.json.
     4. Run RAGAS (Faithfulness, ResponseRelevancy, LLMContextPrecisionWithoutReference)
        using Gemini Flash as the judge — answerable questions only (24 total).
     5. String-match refusal phrases on unanswerable questions (6 total).
@@ -50,7 +50,7 @@ from src.retrieval.reranker import build_reranking_retriever
 # Paths
 # ---------------------------------------------------------------------------
 DATASET_PATH = Path("evaluation/eval_dataset.json")
-ANSWERS_PATH = Path("evaluation/results/gemini_answers.json")
+ANSWERS_PATH = Path("evaluation/results/rag_answers.json")
 RESULTS_PATH = Path("evaluation/results/gemini_eval_results.json")
 
 QUESTIONS_PER_VIDEO = 10

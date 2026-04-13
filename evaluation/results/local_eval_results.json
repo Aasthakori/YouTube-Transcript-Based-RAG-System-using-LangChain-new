@@ -1,0 +1,30 @@
+{
+  "judge": "qwen3-nothink @ http://localhost:11434",
+  "per_video": {
+    "Vidya Balan": {
+      "faithfulness": 0.8238095238095238,
+      "response_relevancy": 0.7774603355421679,
+      "context_precision": 0.82150297616289
+    },
+    "Kriti Sanon": {
+      "faithfulness": 0.8864583333333333,
+      "response_relevancy": 0.6438091088976099,
+      "context_precision": 0.8374999999609201
+    },
+    "Shahid Kapoor": {
+      "faithfulness": 0.9534970238095238,
+      "response_relevancy": 0.726224855565317,
+      "context_precision": 0.9136904761260506
+    }
+  },
+  "average": {
+    "faithfulness": 0.8879216269841269,
+    "response_relevancy": 0.7158314333350315,
+    "context_precision": 0.8575644840832869
+  },
+  "refusal_accuracy": {
+    "correct": 5,
+    "total": 6,
+    "score": 0.8333
+  }
+}

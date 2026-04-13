@@ -6,7 +6,7 @@ Run as:
 Flow:
     1. Load evaluation/eval_dataset.json (questions grouped per video).
     2. For each video: delete index → re-ingest → run full pipeline for all Qs.
-    3. Save all answers to evaluation/results/gemini_answers.json
+    3. Save all answers to evaluation/results/rag_answers.json
        (reused as-is if already cached — only the judge changes, not the answers).
     4. Evaluate each answerable question individually with RAGAS
        (Faithfulness, ResponseRelevancy, LLMContextPrecisionWithoutReference)
@@ -53,7 +53,7 @@ from src.retrieval.reranker import build_reranking_retriever
 # ---------------------------------------------------------------------------
 DATASET_PATH = Path("evaluation/eval_dataset.json")
 # Reuse cached answers from gemini_eval — only the judge changes, not the answers.
-ANSWERS_PATH = Path("evaluation/results/gemini_answers.json")
+ANSWERS_PATH = Path("evaluation/results/rag_answers.json")
 # Per-question score checkpoint — written after every question, safe to resume.
 SCORES_PATH = Path("evaluation/results/local_eval_scores.json")
 RESULTS_PATH = Path("evaluation/results/local_eval_results.json")
