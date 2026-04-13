@@ -37,3 +37,6 @@ evaluation/results/*.json
 data/
 faiss_index/
 .env
+.claude/
+.claude/
+CLAUDE.md
