@@ -26,7 +26,7 @@ LLM_TEMPERATURE: float = float(_get("LLM_TEMPERATURE", "0.2"))
 # ---------------------------------------------------------------------------
 # Embeddings
 # ---------------------------------------------------------------------------
-EMBEDDING_MODEL: str = _get("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+EMBEDDING_MODEL: str = _get("EMBEDDING_MODEL", "all-mpnet-base-v2")
 
 # ---------------------------------------------------------------------------
 # Chunking
