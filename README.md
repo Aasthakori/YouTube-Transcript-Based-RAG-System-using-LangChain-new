@@ -23,6 +23,6 @@ Independent judge: Qwen 3 8B (separate architecture from Mistral 7B generator)
 | Faithfulness | **0.89** |
 | Response Relevancy | **0.72** |
 | Context Precision | **0.86** |
-| Refusal Accuracy | **5/6 (83%)** |
+| Refusal Accuracy | **0.83** |
 
 Evaluated across 30 questions spanning 3 video transcripts.
